@@ -22,9 +22,8 @@ export class ToDoItem{
     /**
      *
      */
-    constructor(description: String, action: Boolean) {
+    constructor(description: String, action: boolean) {
         this.description = description;
-        this.action = action;
-        
+        this.action = action;       
     }
 }
