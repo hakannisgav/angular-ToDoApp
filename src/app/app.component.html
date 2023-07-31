@@ -21,21 +21,9 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Kahvalti</td>
-            <td>No</td>
-          </tr>
-          <tr>
-            <td>Spor</td>
-            <td>No</td>
-          </tr>
-          <tr>
-            <td>Fatura</td>
-            <td>No</td>
-          </tr>
-          <tr>
-            <td>Sinema</td>
-            <td>No</td>
+          <tr *ngFor="let item of items">
+            <td>{{item.description}}</td>
+            <td>{{item.action}}</td>
           </tr>
         </tbody>
       </table>
